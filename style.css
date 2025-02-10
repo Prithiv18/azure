@@ -1,0 +1,188 @@
+body {
+margin : 0;
+padding : 0;
+font : 75% "Trebuchet MS", verdana, arial, sans-serif;
+color : #666;
+background : #003250 url(img/bgd.png) center repeat;
+}
+#container {
+width : 740px;
+margin-left : auto;
+margin-right : auto;
+margin-top : 20px;
+padding : 20px;
+line-height: 1.7em;
+color : #666;
+background : #f2f2f5;
+}
+			/*TOP BANNER*/
+#banner {
+float : left;
+width : 510px;
+height : 200px;
+padding : 0;
+margin : 0 0 10px 0;
+}
+			/*TOP SCROLLBAR*/
+div.scroll {
+overflow : auto;
+height : 7em;
+width : 160px;
+padding : 1em;
+color : #333;
+background : inherit;
+border : 1px solid #aaa;
+margin : 20px;
+}
+#bannerb {
+float : right;
+width : 210px;
+margin : 0 0 10px 0;
+padding : 0;
+}
+			/*TOP NAVIGATION*/
+#navcontainer {
+clear:both;
+width : 100%;
+}
+#navcontainer ul {
+padding-left: 0;
+margin-left: 0;
+background: #F36207;
+color: #fff;
+float: left;
+width: 100%;
+}
+#navcontainer ul li {
+display: inline;
+}
+#navcontainer ul li a {
+padding: 0.2em 1em;
+background: #F36207;
+color: #fff;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+}
+#navcontainer ul li a:hover {
+background: #036;
+color: #fff;
+}
+#active a:link, #active a:visited, #active a:hover {
+background: #036;
+color: #fff;
+}
+			/*CENTRE CONTENT*/
+#content {
+padding : 5px;
+margin-left : 205px;
+margin-right : 205px;
+background : #f7f7f7;
+color : #666;
+}
+			/*LEFT CONTENT*/
+#sidebar {
+float : left;
+width : 180px;
+margin : 0 5px 0 0;
+padding : 5px;
+color : #666;
+background : #f2f2f5;
+}
+			/*LEFT MENU*/
+#menu {
+width : 180px;
+padding : 10px 0 0 0;
+}
+#menu ul {
+margin : 0;
+padding : 0;
+list-style-type : none;
+}
+#menu li {
+margin : 0 0 0.1em 0;
+}
+#menu a {
+width : 160px;
+padding : 0.1em 0.8em;
+text-decoration : none;
+display : block;
+color : #fff;
+background : #f36207;
+}
+#menu a:hover {
+background : #036;
+color : #fff;
+}
+			/*RIGHT CONTENT*/
+#sidebar-b {
+float : right;
+width : 180px;
+margin : 0 0 0 5px;
+padding : 5px;
+background : #f2f2f5;
+color : #333;
+}
+			/*FOOTER*/
+#footer {
+clear : both;
+padding : 5px;
+margin-top : 15px;
+color : #bbd2e0;
+background : #f36207;
+}
+#footer a:link, #footer a:visited {
+background : inherit;
+color : #eee;
+text-decoration : none;
+}
+#footer a:hover {
+border-bottom : 1px dashed #f2f2f5;
+background : inherit;
+color : #f2f2f5;
+}
+			/*TYPOGRAPHY*/
+p {
+margin : 10px;
+}
+h1 {
+margin : 0 0 10px 10px;
+font : normal 1.3em verdana, arial, tahoma, sans-serif;
+letter-spacing: 3px;
+color : #036;
+background : inherit;
+}
+h2 {
+padding-left : 5px;
+font : bold 1em verdana, arial, tahoma, sans-serif;
+color : #ef7329;
+background : inherit;
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+			/*LINKS*/
+a {
+text-decoration : none;
+color : #f36207;
+background : inherit;
+}
+a:hover {
+color : #0d4953;
+background : inherit;
+}
+			/*CLASSES*/
+.news {
+font-size : 1em;
+background : inherit;
+color : #000;
+}
+.orange {
+background : inherit;
+color : #f36207;
+}
+.clear {
+clear : both;
+}
